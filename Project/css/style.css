@@ -1,0 +1,40 @@
+body{
+    background-color: grey;
+}
+
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://premiumbuilds.com/wp-content/uploads/2019/11/Best-i9-9900KS-Gaming-PC-build.png");
+    margin-bottom: 0rem;
+}
+.display-4, .lead{
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+.carousel, .carousel-inner{
+    margin: auto;
+    width:auto; height:auto;
+    max-width: 640px; max-height: 360px;
+    min-width: 375px; max-height: 264px;
+    object-fit: cover;
+}
+
+.carousel, .carousel-inner, img{
+    max-height: 240px;
+}
+
+.card{
+    justify-content: space-around;
+    flex-basis: 25%;
+}
+
+.form-row, .col{
+    max-width: 30rem;
+}
+
+@media(max-width: 1155px){
+.card {flex-basis:100%;}
+}
